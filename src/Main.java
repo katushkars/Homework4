@@ -66,5 +66,50 @@ public class Main {
                 System.out.println("Есть сидячие места");
             }
         }
+
+        //Задание 3.1
+        System.out.println("Задание 3.1");
+        int agePeople = 25;
+        if (agePeople >= 2 && agePeople < 7) {
+            System.out.println("Если возраст человека равен " + agePeople + ", то ему нужно ходить в детский сад");
+        } else {
+            if (agePeople >= 7 && agePeople < 18) {
+                System.out.println("Если возраст человека равен " + agePeople + ", то ему нужно ходить в школу");
+            } else {
+                if (agePeople >= 18 && agePeople < 24) {
+                    System.out.println("Если возраст человека равен " + agePeople + ", то ему нужно ходить в университет");
+                } else {
+                    System.out.println("Если возраст человека равен " + agePeople + ", то ему нужно ходить на работу");
+                }
+            }
+        }
+        //Задание 3.2
+        System.out.println("Задание 3.2");
+        int ageKids = 12;
+        if (ageKids < 5) {
+            System.out.println("Ребенок не может кататься на атракционе!");
+        } else {
+            if (ageKids >= 5 && ageKids < 14) {
+                System.out.println("Ребенок может кататься на атракционе в сопровождении взрослого!");
+            } else {
+                System.out.println("Ребенок  может кататься на атракционе!");
+            }
+        }
+        //Задание 3.2
+        System.out.println("Задание 3.3");
+        int one = 3;
+        int two = 2;
+        int three = 1;
+        if (one > two && one > three) {
+            System.out.println("Число one самое большое");
+        }
+        if (two > one && two > three) {
+            System.out.println("Число two самое большое");
+        }
+        if (three > two && three > one) {
+            System.out.println("Число three самое большое");
+        }
     }
     }
+
+
